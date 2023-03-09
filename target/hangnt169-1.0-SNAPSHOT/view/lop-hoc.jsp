@@ -38,7 +38,7 @@
 <main class="container">
     <h3 style="text-align: center;">Quản Lý Lớp Học</h3>
     <section>
-        <a href="/lop-hoc/view-add" class="btn btn-primary " tabindex="-1" role="button"
+        <a href="/lop-hoc/view-add" class="btn btn-success " tabindex="-1" role="button"
            aria-disabled="true">Add</a>
     </section>
     <section>
@@ -60,7 +60,7 @@
                     <td>${l.tenLop}</td>
                     <td>${l.soLuongSV}</td>
                     <td>
-                        <a href="/lop-hoc/detail?id=${l.id}" class="btn btn-success " tabindex="-1" role="button"
+                        <a href="/lop-hoc/detail?id=${l.id}" class="btn btn-primary " tabindex="-1" role="button"
                            aria-disabled="true">Detail</a>
                         <a href="/lop-hoc/view-update?id=${l.id}" class="btn btn-success " tabindex="-1" role="button"
                            aria-disabled="true">Update</a>
