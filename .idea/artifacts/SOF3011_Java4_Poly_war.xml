@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="SOF3011_Java4_Poly:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>SOF3011_Java4_Poly</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="template-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="SOF3011_Java4_Poly:war exploded" />
+    </root>
+  </artifact>
+</component>

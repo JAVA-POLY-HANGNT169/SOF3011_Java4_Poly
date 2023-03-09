@@ -7,10 +7,10 @@ package com.poly.hangnt169.repository;
 import com.poly.hangnt169.entity.SinhVien;
 import com.poly.hangnt169.response.SinhVienResponse;
 import com.poly.hangnt169.util.HibernateUtil;
+import jakarta.persistence.Query;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 
-import javax.persistence.Query;
 import java.util.ArrayList;
 import java.util.List;
 

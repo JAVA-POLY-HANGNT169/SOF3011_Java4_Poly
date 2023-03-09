@@ -3,9 +3,9 @@ package com.poly.hangnt169.repository;
 import com.poly.hangnt169.entity.ChuyenNganh;
 import com.poly.hangnt169.response.ChuyenNganhResponse;
 import com.poly.hangnt169.util.HibernateUtil;
+import jakarta.persistence.Query;
 import org.hibernate.Session;
 
-import javax.persistence.Query;
 import java.util.ArrayList;
 import java.util.List;
 
